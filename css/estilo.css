@@ -8,8 +8,60 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   p{
     font-size: 30px;
+  }
+  header{
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .link{
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: grey;
+  }
+
+  .btn{
+    background-color: blue;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .btn:hover{
+    background-color: rgba(0, 0, 255, 0.527);
+  }
+
+ 
+ 
+  main{
+    flex-grow: 1;
+  }
+
+  footer{
+    color: #6B7682;
+    height: 60px;
+    border-bottom: 1px solid ;
+    background-color: #9aa0a7;
+    
+    font-size: 18px;
+    padding-left: 18px;
+
+    display: flex;
+    align-items: center;
+    
   }
